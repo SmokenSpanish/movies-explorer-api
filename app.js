@@ -21,8 +21,6 @@ app.use(helmet());
 
 mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
 });
 
 app.use(requestLogger);
