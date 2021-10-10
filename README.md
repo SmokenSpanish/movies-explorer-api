@@ -1,6 +1,6 @@
-# Дипломная работа Movies Explorer (Backend) в курсе Веб-разработки от Яндекс.Практикум.
+# Movies Explorer (Backend) 
 
-## Описание проекта и функциональность:
+## Описание проекта и функциональность
 
 Проект представляет собой сервис Movies Explorer, в котором можно найти фильмы по запросу и сохранить в личном кабинете.
 
@@ -22,9 +22,10 @@
 * __`POST`__ `/signout` — удаляет `JWT` из `cookie`;
 
 ## Запуск проекта
-
-`npm run start` — запускает сервер   
-`npm run dev` — запускает сервер с hot-reload
+1. `git clone` [`https://github.com/SmokenSpanish/movies-explorer-api.git`](https://github.com/SmokenSpanish/movies-explorer-api.git)
+2. `npm install`
+3.`npm run start` — запускает сервер   
+4.`npm run dev` — запускает сервер с hot-reload
 
 ## Ссылки на проект:
 ##### Публичный IP-адрес сервера:
